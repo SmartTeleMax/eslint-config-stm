@@ -6,7 +6,7 @@ module.exports = {
         "comma-dangle": ["error", "never"],
         "object-curly-spacing": ["error", "never"],
         "object-shorthand": ["error", "never"],
-        "object-curly-newline": "off",
+        "object-curly-newline": ["error", {"consistent": true}],
         "no-unused-vars": ["warn", {"args": "none"}],
         "no-mixed-operators": "off",
         "no-param-reassign": "off",
